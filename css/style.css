@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    max-width: 1700px;
+    background-color: #E8EEFF;
+    width: 100%;
+    margin: 108px auto;
+    padding: 96px;
+}
+.mainDiv >*{
+    margin-bottom: 60px;
+}
+.mainTitle{
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+}
+.mainTitle h1{
+    color: #181D27;
+font-size: 72px;
+}
+.mainTitle h1 :first-child{
+    color: #05F;
+}
+.mainTitle h1 :last-child{
+    color: #6941C6;
+    border-bottom: solid 4px #6941C6 ;
+}
+.mainTitle  >*{
+    max-width: 800px;
+    margin-bottom:23px ;
+}
+.mainTitle p{
+    color: #535862;
+font-size: 20px;
+line-height: 30px; /* 150% */
+}
+/* header end */
+/* main starts */
+.mainImage{
+    border-radius: 20px;
+    border:  solid #D6D8DC 1px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.comentBox{
+    border-radius: 8px;
+background: #FFF;
+display: inline-block;
+padding: 16px;
+max-width: 430px;
+height: 200px;
+}
+.comentBox >*{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.comentBox p{
+    color: #535862;
+font-size: 16px;
+
+}
+.comentBox span{
+    color: #181D27;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px; /* 150% */
+}
+.comentConteiner{
+    margin: 0 auto;
+    width: max-content;
+    margin-bottom: 60px;
+}
+.comentConteiner >*{
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.joinConteiner{
+    margin: 0 auto;
+    border-radius: 24px;
+    background-color: #53389E;
+    max-width: fit-content;
+}
+.joinBox{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 64px;
+    width: fit-content;
+}
+.joinConteiner img{
+    vertical-align: middle;
+    border-radius: 24px;
+}
+.joinBox h2{
+    color: #FFF;
+    font-size: 36px;
+}
+.joinBox p{
+    color: #E9D7FE;
+    line-height: 30px;
+    font-size: 20px;
+}
+.joinBox >*{
+    margin-bottom: 20px;
+}
+.joinButtons :first-child{
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+    padding: 12px 18px;
+    color: #414651;
+    font-size: 16px;
+    line-height: 24px;
+}
+.joinButtons :last-child{
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    background-color: #7F56D9;
+    padding: 12px 18px;
+    color: #ffff;
+    font-size: 16px;
+    line-height: 24px;
+}
